@@ -4,7 +4,7 @@ First make sure you have anaconda installed, which you can find [here](https://w
 
 I recommend creating the virtual environment with conda. The instructions that follow should work regardless of operating system (i.e. also on Linux/Windows).
 
-```conda create -n app-ml python==3.12.10```
+```conda create -n app-ml python==3.12.10 -c conda-forge```
 
 Note that `3.13` wasn't working well with package versions for some people.
 
